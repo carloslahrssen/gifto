@@ -18,4 +18,4 @@ const readAll = () => {
   return post.findAll();
 };
 
-export { create, read, findAll };
+export { create, read, readAll };

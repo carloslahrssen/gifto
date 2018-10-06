@@ -17,7 +17,7 @@ const getPost = async (req, res) => {
 };
 
 const getAllPost = async (req, res) => {
-  res.json(await findAll());
+  res.json(await readAll());
 };
 
 export { createPost, getPost, getAllPost };

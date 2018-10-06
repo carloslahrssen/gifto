@@ -1,9 +1,11 @@
 import express from "express";
 import bodyParser from "body-parser";
+import cors from "cors";
 const app = express();
 
 import { apiRouter } from "./routes";
 
+app.use(cors());
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ extended: false, limit: "50mb" }));
 
