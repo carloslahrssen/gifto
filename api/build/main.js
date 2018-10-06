@@ -134,7 +134,7 @@ app.use(__WEBPACK_IMPORTED_MODULE_1_body_parser___default.a.urlencoded({ extende
 
 app.use("/api", __WEBPACK_IMPORTED_MODULE_2__routes__["a" /* apiRouter */]);
 
-app.listen(3000, err => {
+app.listen(8080, err => {
   if (err) {
     console.log(err);
     return;
